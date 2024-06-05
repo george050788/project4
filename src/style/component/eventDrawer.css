@@ -1,0 +1,43 @@
+.DateCalendar {
+  display: none;
+  position: absolute;
+  top: 20rem;
+  border: 1px solid rgba(50, 71, 92, 0.38);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.DateCalendar.active {
+  display: block;
+  z-index: 999;
+}
+
+.EndCalendar {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  border: 1px solid rgba(50, 71, 92, 0.38);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.EndCalendar.active {
+  display: block;
+  z-index: 999;
+}
+
+.start-date {
+  display: block;
+}
+
+.start-date.switch {
+  display: none;
+}
+
+.datetime-start {
+  display: block;
+}
+
+.datetime-start.switch {
+  display: none;
+}

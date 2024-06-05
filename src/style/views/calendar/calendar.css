@@ -1,0 +1,32 @@
+.calendar-right .week {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.calendar-right .week li {
+  list-style: none;
+}
+
+.calendar-right .day {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calendar-right .day span {
+  width: 150px;
+  height: calc((733.2px - 24px - 56.5px - 1.25rem - 1.25rem) / 5);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  color: rgba(50, 71, 92, 0.6);
+  padding: 0.5rem 1rem;
+}
+
+.calendar-right .day p {
+  width: 150px;
+  height: calc((733.2px - 24px - 56.5px - 1.25rem - 1.25rem) / 5);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  color: rgba(50, 71, 92, 0.87);
+  padding: 0.5rem 1rem;
+}

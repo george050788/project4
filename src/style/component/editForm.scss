@@ -1,0 +1,22 @@
+// .mask {
+//   position: fixed;
+//   top: 0;
+//   bottom: 0;
+//   right: 0;
+//   left: 0;
+//   background-color: transparent;
+//   z-index: -1;
+//   height: 100vh;
+//   &.show {
+//     background-color: rgba(0, 0, 0, 0.5);
+//     z-index: 999;
+//   }
+.form {
+  transform: translate(-50%, -50%);
+  inset: 50% auto auto 50%;
+  display: none;
+  &.show {
+    display: block;
+  }
+}
+// }

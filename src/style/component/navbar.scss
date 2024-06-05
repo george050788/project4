@@ -1,0 +1,14 @@
+.layout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  background-color: hsla(0, 0%, 82%, 0.3);
+  a {
+    text-decoration: none;
+    opacity: 0.7;
+    color: #101010;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}

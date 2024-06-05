@@ -1,0 +1,22 @@
+.role {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.role .role-grid .box-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.role .role-grid h2 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.role .role-grid a {
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+}

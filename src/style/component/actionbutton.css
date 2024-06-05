@@ -1,0 +1,40 @@
+.total-income {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-income .income-top {
+  display: flex;
+}
+
+.total-income .income-top .income-icon {
+  margin-right: 0.875rem;
+}
+
+.total-income .income-top .income-info p {
+  font-size: 1rem;
+  color: rgba(50, 71, 92, 0.6);
+}
+
+.total-income .income-top .income-info div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-income .income-top .income-info div h4 {
+  font-size: 1.25rem;
+  color: rgba(50, 71, 92, 0.87);
+}
+
+.total-income .income-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-income .income-bottom .bottom-chart {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}

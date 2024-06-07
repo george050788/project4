@@ -88,7 +88,8 @@ export default function Email () {
 
   useEffect(() => {
     async function fetchData () {
-      let emaildata1 = await fetch('/email', {
+      const render = 'https://project4-oq1e.onrender.com'
+      let emaildata1 = await fetch(`${render}/email`, {
         method: 'GET',
         headers: {
           'Accept': 'application/json',

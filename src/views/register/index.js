@@ -39,12 +39,11 @@ export default function Register () {
       avatarURL: '',
       role: '',
       status: '',
-
-
     }
 
     console.log('LoginInfo:', fullname, email, password)
-    const rawResponse = await fetch('/api/register', {
+    const render = 'https://project4-oq1e.onrender.com'
+    const rawResponse = await fetch(`${render}/api/register`, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

@@ -28,8 +28,8 @@ export default function LoginIn () {
     const email = formRef.current['email'].value
 
     console.log('LoginInfo:', email, password)
-
-    const rawResponse = await fetch('/api/login', {
+    const render = 'https://project4-oq1e.onrender.com'
+    const rawResponse = await fetch(`${render}/api/login`, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
